@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-09T14:02:20 IST" name="Suite" finished-at="2024-12-09T14:03:01 IST" duration-ms="40935">
+    <groups>
+    </groups>
+    <test started-at="2024-12-09T14:02:20 IST" name="Test" finished-at="2024-12-09T14:03:01 IST" duration-ms="40935">
+      <class name="test.TC_003_InvalidLoginTests">
+        <test-method is-config="true" signature="data()[pri:0, instance:test.TC_003_InvalidLoginTests@63475ace]" started-at="2024-12-09T14:02:20 IST" name="data" finished-at="2024-12-09T14:02:20 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- data -->
+        <test-method is-config="true" signature="launchLoadUrl(java.lang.String,java.lang.String)[pri:0, instance:test.TC_003_InvalidLoginTests@63475ace]" started-at="2024-12-09T14:02:56 IST" name="launchLoadUrl" finished-at="2024-12-09T14:02:59 IST" duration-ms="3590" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://thinking-tester-contact-list.herokuapp.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchLoadUrl -->
+        <test-method signature="InvalidLoginTest()[pri:0, instance:test.TC_003_InvalidLoginTests@63475ace]" started-at="2024-12-09T14:02:59 IST" name="InvalidLoginTest" finished-at="2024-12-09T14:03:01 IST" duration-ms="1094" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidLoginTest -->
+        <test-method is-config="true" signature="closeLauncher()[pri:0, instance:test.TC_003_InvalidLoginTests@63475ace]" started-at="2024-12-09T14:03:01 IST" name="closeLauncher" finished-at="2024-12-09T14:03:01 IST" duration-ms="423" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeLauncher -->
+      </class> <!-- test.TC_003_InvalidLoginTests -->
+      <class name="test.TC_002_LoginTestDifFunction">
+        <test-method is-config="true" signature="data()[pri:0, instance:test.TC_002_LoginTestDifFunction@22fcf7ab]" started-at="2024-12-09T14:02:20 IST" name="data" finished-at="2024-12-09T14:02:20 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- data -->
+        <test-method is-config="true" signature="launchLoadUrl(java.lang.String,java.lang.String)[pri:0, instance:test.TC_002_LoginTestDifFunction@22fcf7ab]" started-at="2024-12-09T14:02:27 IST" name="launchLoadUrl" finished-at="2024-12-09T14:02:31 IST" duration-ms="3869" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://thinking-tester-contact-list.herokuapp.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchLoadUrl -->
+        <test-method signature="LoginTest()[pri:0, instance:test.TC_002_LoginTestDifFunction@22fcf7ab]" started-at="2024-12-09T14:02:31 IST" name="LoginTest" finished-at="2024-12-09T14:02:48 IST" duration-ms="17251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method is-config="true" signature="closeLauncher()[pri:0, instance:test.TC_002_LoginTestDifFunction@22fcf7ab]" started-at="2024-12-09T14:02:48 IST" name="closeLauncher" finished-at="2024-12-09T14:02:48 IST" duration-ms="193" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeLauncher -->
+      </class> <!-- test.TC_002_LoginTestDifFunction -->
+      <class name="test.TC_001_RegisterTest">
+        <test-method is-config="true" signature="data()[pri:0, instance:test.TC_001_RegisterTest@ae13544]" started-at="2024-12-09T14:02:20 IST" name="data" finished-at="2024-12-09T14:02:20 IST" duration-ms="29" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- data -->
+        <test-method is-config="true" signature="launchLoadUrl(java.lang.String,java.lang.String)[pri:0, instance:test.TC_001_RegisterTest@ae13544]" started-at="2024-12-09T14:02:20 IST" name="launchLoadUrl" finished-at="2024-12-09T14:02:25 IST" duration-ms="4962" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://thinking-tester-contact-list.herokuapp.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchLoadUrl -->
+        <test-method signature="RegisterTest()[pri:0, instance:test.TC_001_RegisterTest@ae13544]" started-at="2024-12-09T14:02:25 IST" name="RegisterTest" finished-at="2024-12-09T14:02:27 IST" duration-ms="1570" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisterTest -->
+        <test-method is-config="true" signature="closeLauncher()[pri:0, instance:test.TC_001_RegisterTest@ae13544]" started-at="2024-12-09T14:02:27 IST" name="closeLauncher" finished-at="2024-12-09T14:02:27 IST" duration-ms="108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeLauncher -->
+      </class> <!-- test.TC_001_RegisterTest -->
+      <class name="test.TC_004_InvalidDobTest">
+        <test-method is-config="true" signature="data()[pri:0, instance:test.TC_004_InvalidDobTest@2de23121]" started-at="2024-12-09T14:02:20 IST" name="data" finished-at="2024-12-09T14:02:20 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- data -->
+        <test-method is-config="true" signature="launchLoadUrl(java.lang.String,java.lang.String)[pri:0, instance:test.TC_004_InvalidDobTest@2de23121]" started-at="2024-12-09T14:02:48 IST" name="launchLoadUrl" finished-at="2024-12-09T14:02:52 IST" duration-ms="3918" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://thinking-tester-contact-list.herokuapp.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchLoadUrl -->
+        <test-method signature="RegisterTest()[pri:0, instance:test.TC_004_InvalidDobTest@2de23121]" started-at="2024-12-09T14:02:52 IST" name="RegisterTest" finished-at="2024-12-09T14:02:56 IST" duration-ms="3427" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisterTest -->
+        <test-method is-config="true" signature="closeLauncher()[pri:0, instance:test.TC_004_InvalidDobTest@2de23121]" started-at="2024-12-09T14:02:56 IST" name="closeLauncher" finished-at="2024-12-09T14:02:56 IST" duration-ms="360" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeLauncher -->
+      </class> <!-- test.TC_004_InvalidDobTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
