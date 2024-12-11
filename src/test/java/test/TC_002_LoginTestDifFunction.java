@@ -15,6 +15,10 @@ public class TC_002_LoginTestDifFunction extends ProjectSpecificationMethod {
 	@BeforeTest
 	public void data() throws IOException {
 		readFromPropFile("SignLoginTestData");
+		testName="LoginTest";
+		testDescription="Test the LoginFunctionality with postive and negtive";
+		testAuthor="Harish";
+		testCategory="smokeTesting";
 	}
 	
 	@Test

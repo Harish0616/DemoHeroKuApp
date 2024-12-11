@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-11T18:51:56 IST" name="Suite" finished-at="2024-12-11T18:54:29 IST" duration-ms="152745">
+    <groups>
+    </groups>
+    <test started-at="2024-12-11T18:51:56 IST" name="Test" finished-at="2024-12-11T18:54:29 IST" duration-ms="152745">
+      <class name="test.TC_003_InvalidLoginTests">
+        <test-method is-config="true" signature="data()[pri:0, instance:test.TC_003_InvalidLoginTests@411f53a0]" started-at="2024-12-11T18:51:56 IST" name="data" finished-at="2024-12-11T18:51:56 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- data -->
+        <test-method is-config="true" signature="launchLoadUrl(java.lang.String,java.lang.String)[pri:0, instance:test.TC_003_InvalidLoginTests@411f53a0]" started-at="2024-12-11T18:54:22 IST" name="launchLoadUrl" finished-at="2024-12-11T18:54:27 IST" duration-ms="5941" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://thinking-tester-contact-list.herokuapp.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchLoadUrl -->
+        <test-method signature="InvalidLoginTest()[pri:0, instance:test.TC_003_InvalidLoginTests@411f53a0]" started-at="2024-12-11T18:54:27 IST" name="InvalidLoginTest" finished-at="2024-12-11T18:54:28 IST" duration-ms="1034" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidLoginTest -->
+        <test-method is-config="true" signature="closeLauncher()[pri:0, instance:test.TC_003_InvalidLoginTests@411f53a0]" started-at="2024-12-11T18:54:28 IST" name="closeLauncher" finished-at="2024-12-11T18:54:29 IST" duration-ms="291" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeLauncher -->
+      </class> <!-- test.TC_003_InvalidLoginTests -->
+      <class name="test.TC_002_LoginTestDifFunction">
+        <test-method is-config="true" signature="data()[pri:0, instance:test.TC_002_LoginTestDifFunction@51399530]" started-at="2024-12-11T18:51:56 IST" name="data" finished-at="2024-12-11T18:51:56 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- data -->
+        <test-method is-config="true" signature="launchLoadUrl(java.lang.String,java.lang.String)[pri:0, instance:test.TC_002_LoginTestDifFunction@51399530]" started-at="2024-12-11T18:52:07 IST" name="launchLoadUrl" finished-at="2024-12-11T18:52:12 IST" duration-ms="5008" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://thinking-tester-contact-list.herokuapp.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchLoadUrl -->
+        <test-method signature="LoginTest()[pri:0, instance:test.TC_002_LoginTestDifFunction@51399530]" started-at="2024-12-11T18:52:12 IST" name="LoginTest" finished-at="2024-12-11T18:54:11 IST" duration-ms="118794" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for element to be clickable: By.xpath: //div[@class='contacts']//tr/td[contains(text(),'walmart Y')] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '23'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.109, chrome: {chromedriverVersion: 131.0.6778.108 (3b014839fbc..., userDataDir: C:\Users\HARISH\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50101}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50101/devtoo..., se:cdpVersion: 131.0.6778.109, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 97daa2b5b6d35109cb0dcd19f117b1ed]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //div[@class='contacts']//tr/td[contains(text(),'walmart Y')] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '23'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.109, chrome: {chromedriverVersion: 131.0.6778.108 (3b014839fbc..., userDataDir: C:\Users\HARISH\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50101}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50101/devtoo..., se:cdpVersion: 131.0.6778.109, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 97daa2b5b6d35109cb0dcd19f117b1ed
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at pages.LoginPage.isEditConductLinkClicked(LoginPage.java:266)
+at test.TC_002_LoginTestDifFunction.LoginTest(TC_002_LoginTestDifFunction.java:40)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method is-config="true" signature="closeLauncher()[pri:0, instance:test.TC_002_LoginTestDifFunction@51399530]" started-at="2024-12-11T18:54:11 IST" name="closeLauncher" finished-at="2024-12-11T18:54:11 IST" duration-ms="102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeLauncher -->
+      </class> <!-- test.TC_002_LoginTestDifFunction -->
+      <class name="test.TC_001_RegisterTest">
+        <test-method is-config="true" signature="reportInitilization()[pri:0, instance:test.TC_001_RegisterTest@74235045]" started-at="2024-12-11T18:51:56 IST" name="reportInitilization" finished-at="2024-12-11T18:51:56 IST" duration-ms="507" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportInitilization -->
+        <test-method is-config="true" signature="data()[pri:0, instance:test.TC_001_RegisterTest@74235045]" started-at="2024-12-11T18:51:56 IST" name="data" finished-at="2024-12-11T18:51:56 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- data -->
+        <test-method is-config="true" signature="launchLoadUrl(java.lang.String,java.lang.String)[pri:0, instance:test.TC_001_RegisterTest@74235045]" started-at="2024-12-11T18:51:56 IST" name="launchLoadUrl" finished-at="2024-12-11T18:52:05 IST" duration-ms="9053" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://thinking-tester-contact-list.herokuapp.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchLoadUrl -->
+        <test-method signature="RegisterTest()[pri:0, instance:test.TC_001_RegisterTest@74235045]" started-at="2024-12-11T18:52:05 IST" name="RegisterTest" finished-at="2024-12-11T18:52:07 IST" duration-ms="1773" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisterTest -->
+        <test-method is-config="true" signature="closeLauncher()[pri:0, instance:test.TC_001_RegisterTest@74235045]" started-at="2024-12-11T18:52:07 IST" name="closeLauncher" finished-at="2024-12-11T18:52:07 IST" duration-ms="313" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeLauncher -->
+        <test-method is-config="true" signature="closesuite()[pri:0, instance:test.TC_001_RegisterTest@74235045]" started-at="2024-12-11T18:54:30 IST" name="closesuite" finished-at="2024-12-11T18:54:30 IST" duration-ms="30" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closesuite -->
+      </class> <!-- test.TC_001_RegisterTest -->
+      <class name="test.TC_004_InvalidDobTest">
+        <test-method is-config="true" signature="data()[pri:0, instance:test.TC_004_InvalidDobTest@6b2ea799]" started-at="2024-12-11T18:51:56 IST" name="data" finished-at="2024-12-11T18:51:56 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- data -->
+        <test-method is-config="true" signature="launchLoadUrl(java.lang.String,java.lang.String)[pri:0, instance:test.TC_004_InvalidDobTest@6b2ea799]" started-at="2024-12-11T18:54:11 IST" name="launchLoadUrl" finished-at="2024-12-11T18:54:18 IST" duration-ms="6884" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://thinking-tester-contact-list.herokuapp.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchLoadUrl -->
+        <test-method signature="RegisterTest()[pri:0, instance:test.TC_004_InvalidDobTest@6b2ea799]" started-at="2024-12-11T18:54:18 IST" name="RegisterTest" finished-at="2024-12-11T18:54:21 IST" duration-ms="3132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisterTest -->
+        <test-method is-config="true" signature="closeLauncher()[pri:0, instance:test.TC_004_InvalidDobTest@6b2ea799]" started-at="2024-12-11T18:54:21 IST" name="closeLauncher" finished-at="2024-12-11T18:54:22 IST" duration-ms="210" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeLauncher -->
+      </class> <!-- test.TC_004_InvalidDobTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

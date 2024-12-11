@@ -13,6 +13,10 @@ public class TC_001_RegisterTest extends ProjectSpecificationMethod {
 	@BeforeTest
 	public void data() throws IOException {
 		readFromPropFile("SignLoginTestData");
+		testName="RegisterTest";
+		testDescription="Test the RegisterFunctionality with postive and negtive";
+		testAuthor="Harish";
+		testCategory="smokeTesting";
 	}
 	
 	

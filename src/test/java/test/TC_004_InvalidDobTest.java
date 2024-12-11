@@ -13,6 +13,10 @@ public class TC_004_InvalidDobTest extends ProjectSpecificationMethod{
 	@BeforeTest
 	public void data() throws IOException {
 		readFromPropFile("SignLoginTestData");
+		testName="InvalidDobTest";
+		testDescription="Test the InvalidDobFunctionality with postive and negtive";
+		testAuthor="Harish";
+		testCategory="smokeTesting";
 	}
 	
 	

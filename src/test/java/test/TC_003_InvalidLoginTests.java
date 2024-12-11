@@ -13,6 +13,10 @@ public class TC_003_InvalidLoginTests extends ProjectSpecificationMethod  {
 	@BeforeTest
 	public void data() throws IOException {
 		readFromPropFile("SignLoginTestData");
+		testName="InvalidLoginTest";
+		testDescription="Test the InvalidLoginFunctionality with postive and negtive";
+		testAuthor="Harish";
+		testCategory="smokeTesting";
 	}
 	
 	

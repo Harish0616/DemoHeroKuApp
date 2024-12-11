@@ -263,7 +263,7 @@ public class LoginPage extends ProjectSpecificationMethod {
         	        // Locate all rows in the contact table
        	      WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20)); // 20 seconds timeout
 		  
-		      WebElement clickEditBut = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//div[@class='contacts']//tr/td[contains(text(),'amazon B')]")));
+		      WebElement clickEditBut = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//div[@class='contacts']//tr/td[contains(text(),'walmart Y')]")));
 		      //parent to xpath //div[@class='contacts']//tr/td[contains(text(),'james j')]
 		      //Table xpath //div[@class='contacts']/table/tr)[2]
 		      //name out xpath   //table[@id='myTable']/tr/td[contains(text(), 'babyboy sh')]
@@ -387,7 +387,7 @@ public class LoginPage extends ProjectSpecificationMethod {
                 String expectedTitle = "Contact List";
                 
                 // Retrieve the actual title of the web page
-                String actualTitle = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//h1[contains(text(),'Contact List')]"))).getText();
+                String actualTitle = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//h1[contains(text(),'amazon B')]"))).getText();
                 
                 // Assert that the actual title equals the expected title
                 Assert.assertEquals(actualTitle, expectedTitle, "The actual title does not match the expected title");
